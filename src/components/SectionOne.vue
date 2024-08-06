@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-primaryColor400 text-white p-3 h-screen overflow-hidden relative after: -z-30">
+  <section class="bg-primaryColor400 text-white p-3 h-screen overflow-hidden relative">
     <span
       class="absolute bg- bg-lightPurple w-2/5 h-2/3 aspect-square rounded-tl-full rounded-b right-0 bottom-0 blur-3xl opacity-60 -z-100"
     ></span>
@@ -20,18 +20,17 @@
       <nav
         class="flex justify-start bg-gradient-to-r from-transparent via-primaryColor500 to-transparent placeholder-opacity-100 mt-5 border-primaryColor500 border-2 text-center py-2 rounded-3xl"
       >
-        <h2 class="mx-5 text-2xl my-auto font-k2D font-medium">Mehdi Beigi</h2>
+        <h2 class="mx-5 text-2xl my-auto font-k2D font-medium z-40">Mehdi Beigi</h2>
         <div class="flex gap-8 items-center max-[890px]:justify-around max-[890px]:w-full">
-          <a href="">HOME</a>
-          <a href="">PROJECTS</a>
-          <a href="">ABOUT</a>
-          <a href="">CONTACT</a>
+          <a class="hover:border-b-2" href="#">HOME</a>
+          <a class="hover:border-b-2" href="#">ABOUT</a>
+          <a class="hover:border-b-2" href="#">CONTACT</a>
         </div>
         <a class="ml-auto mr-5 my-auto max-[890px]:hidden" href="">Contact Me</a>
       </nav>
     </header>
     <div class="flex h-dvh w-full">
-      <div class="flex flex-col gap-10 w-1/3 justify-center items-center">
+      <div class="flex flex-col gap-10 w-1/3 justify-top items-center mt-20">
         <h1 class="text-9xl font-k2D font-bold w-3 z-10">
           Mehdi
           <br />
@@ -47,6 +46,7 @@
       </div>
       <div class="w-1/2 mt-auto mr-6 mb-8 relative min-[780px]:max-w-4xl">
         <img class="w-16 absolute right-0" src="/images/Ellipse 4.png" alt="" />
+        <img class="absolute w-52 top-0 animate-float" src="/images/astro.png" alt="" />
         <img
           class="-z-20 ml-auto mr-20 min-w-96 min-[1170px]:w-5/6 min-[990px]:mr-0"
           src="/images/Ellipse 4.png"
@@ -56,3 +56,4 @@
     </div>
   </section>
 </template>
+<script setup></script>
