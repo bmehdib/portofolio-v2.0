@@ -23,7 +23,8 @@ export default {
         }
       },
       animation: {
-        float: 'astro linear 3s infinite'
+        float: 'astro linear 3s infinite',
+        planet: 'astro linear 5s infinite'
       }
     }
   },

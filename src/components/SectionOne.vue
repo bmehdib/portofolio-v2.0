@@ -1,13 +1,13 @@
 <template>
   <section class="bg-primaryColor400 text-white p-3 h-screen overflow-hidden relative z-0">
     <span
-      class="absolute bg- bg-lightPurple w-2/5 h-2/3 aspect-square rounded-tl-full rounded-b right-0 bottom-0 blur-3xl opacity-40 z-10"
+      class="absolute bg- bg-lightPurple w-2/5 h-2/3 aspect-square rounded-tl-full rounded-b right-0 bottom-0 blur-3xl opacity-20 z-10"
     ></span>
     <span
-      class="absolute bg-hardPurple w-2/5 h-2/3 aspect-square rounded-bl-full rounded-b right-0 top-0 blur-3xl opacity-30 z-10"
+      class="absolute bg-hardPurple w-2/5 h-2/3 aspect-square rounded-bl-full rounded-b right-0 top-0 blur-3xl opacity-20 z-10"
     ></span>
     <span
-      class="absolute bg-lightBlue w-2/5 h-2/3 aspect-square rounded-bl-full rounded-b right-0 top-0 blur-3xl opacity-30 z-10"
+      class="absolute bg-lightBlue w-2/5 h-2/3 aspect-square rounded-bl-full rounded-b right-0 top-1/3 blur-3xl opacity-20 z-10"
     ></span>
     <span
       class="absolute bg-white w-2/5 h-2/3 aspect-square left-0 top-0 opacity-20 -z-5 rounded-br-full rounded-tr-full blur-3xl z-10"
@@ -32,7 +32,7 @@
           <br />
           Beigi
         </h2>
-        <div class="flex gap-8 items-center max-[890px]:justify-around max-[890px]:w-full">
+        <div class="flex w-2/4 gap-8 items-center justify-around max-[890px]:w-full">
           <a class="hover:border-b-2" href="#">HOME</a>
           <a class="hover:border-b-2" href="#">ABOUT</a>
           <a class="hover:border-b-2" href="#">CONTACT</a>
@@ -43,13 +43,13 @@
     </header>
     <div class="flex h-dvh w-full">
       <div class="flex flex-col gap-10 w-1/3 justify-top items-center mt-20 [441px]:justify-center">
-        <h1 class="text-9xl font-k2D font-bold w-3 z-10 max-[441px]:text-6xl">
+        <h1 class="text-9xl font-k2D font-bold w-3 z-10 max-[441px]:text-6xl max-[441px]:mr-auto">
           Mehdi
           <br />
           Beigi
         </h1>
         <p
-          class="w-0 text-nowrap font-sans font-medium leading-relaxed overflow-visibl z-10 max-[1134px]:hidden max-[539px]:flex max-[441px]:mr-auto"
+          class="w-0 text-nowrap font-sans font-medium leading-relaxed overflow-visibl z-10 max-[1134px]:hidden max-[539px]:flex max-[441px]:mr-auto max-[330px]:ml-0"
         >
           من یک توسعه دهنده فرانت هستم
           <br />
@@ -57,8 +57,12 @@
         </p>
       </div>
       <div class="w-1/2 mt-auto mr-6 mb-8 relative min-[780px]:max-w-4xl">
-        <img class="w-16 absolute right-0" src="/images/Ellipse 4.png" alt="" />
-        <img class="absolute w-52 top-0 animate-float z-20" src="/images/astro.png" alt="" />
+        <img
+          class="w-16 absolute right-0 delay-100 animate-planet -z-30"
+          src="/images/Ellipse 4.png"
+          alt=""
+        />
+        <img class="absolute w-52 top-0 animate-float z-30" src="/images/astro.png" alt="" />
         <img
           class="-z-20 ml-auto mr-20 min-w-96 min-[1170px]:w-5/6 min-[990px]:mr-0"
           src="/images/Ellipse 4.png"
