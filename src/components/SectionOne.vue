@@ -1,5 +1,8 @@
 <template>
-  <section class="bg-primaryColor400 text-white p-3 h-screen overflow-hidden relative z-0">
+  <section
+    id="Home"
+    class="bg-primaryColor400 text-white p-3 h-screen overflow-hidden relative z-0"
+  >
     <span
       class="absolute bg- bg-lightPurple w-2/5 h-2/3 aspect-square rounded-tl-full rounded-b right-0 bottom-0 blur-3xl opacity-20 z-10"
     ></span>
@@ -7,10 +10,10 @@
       class="absolute bg-hardPurple w-2/5 h-2/3 aspect-square rounded-bl-full rounded-b right-0 top-0 blur-3xl opacity-20 z-10"
     ></span>
     <span
-      class="absolute bg-lightBlue w-2/5 h-2/3 aspect-square rounded-bl-full rounded-b right-0 top-1/3 blur-3xl opacity-20 z-10"
+      class="absolute bg-lightBlue w-2/5 h-2/3 aspect-square rounded-bl-full rounded-b right-0 top-1/3 blur-3xl opacity-10 z-10"
     ></span>
     <span
-      class="absolute bg-white w-2/5 h-2/3 aspect-square left-0 top-0 opacity-20 -z-5 rounded-br-full rounded-tr-full blur-3xl z-10"
+      class="absolute bg-white w-2/5 h-2/3 aspect-square left-0 top-0 opacity-10 -z-5 rounded-br-full rounded-tr-full blur-3xl z-10"
     ></span>
     <span
       class="absolute bg-white w-2/5 h-2/3 aspect-square left-0 -bottom-44 opacity-10 -z-5 rounded-tr-full rounded-br-full blur-3xl z-10"
@@ -33,9 +36,9 @@
           Beigi
         </h2>
         <div class="flex w-2/4 gap-8 items-center justify-around max-[890px]:w-full">
-          <a class="hover:border-b-2" href="#">HOME</a>
-          <a class="hover:border-b-2" href="#">ABOUT</a>
-          <a class="hover:border-b-2" href="#">CONTACT</a>
+          <a class="hover:border-b-2" href="#Home">HOME</a>
+          <a class="hover:border-b-2" href="#About-me">ABOUT</a>
+          <a class="hover:border-b-2" href="">CONTACT</a>
         </div>
         <a class="ml-auto mr-5 my-auto max-[890px]:hidden z-30" href="">Contact Me</a>
       </nav>
@@ -77,8 +80,8 @@
     >
       <nav class="flex flex-col text-center gap-8 text-black font-bold">
         <button @click="mobileMenue = false" class="absolute top-5 right-1/2 text-xl">x</button>
-        <a @click="mobileMenue = false" class="hover:border-b-2" href="#">HOME</a>
-        <a @click="mobileMenue = false" class="hover:border-b-2" href="#">ABOUT</a>
+        <a @click="mobileMenue = false" class="hover:border-b-2" href="#Home">HOME</a>
+        <a @click="mobileMenue = false" class="hover:border-b-2" href="#About-me">ABOUT</a>
         <a @click="mobileMenue = false" class="hover:border-b-2" href="#">CONTACT</a>
         <div class="flex gap-16 items-center mt-10">
           <a target="_blank" href="https://www.instagram.com/mehd1.beigi">

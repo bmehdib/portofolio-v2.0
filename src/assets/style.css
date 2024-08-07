@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(168, 32, 223) rgb(205, 180, 233);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 15px;
+}

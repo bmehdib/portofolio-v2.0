@@ -20,11 +20,21 @@ export default {
           '0%,100%': { transform: 'translateY(0)' },
           '20%': { transform: 'translateY(10px)' },
           '80%': { transform: 'translateY(-10px)' }
+        },
+        apear: {
+          from: { transform: 'scale(0)' },
+          to: { transform: 'scale(1)' }
+        },
+        disapear: {
+          from: { transform: 'scale(1)' },
+          to: { transform: 'scale(0)' }
         }
       },
       animation: {
         float: 'astro linear 3s infinite',
-        planet: 'astro linear 5s infinite'
+        planet: 'astro linear 5s infinite',
+        apear: 'apear linear 0.5s both',
+        disapear: 'disapear lienar 0.5s both'
       }
     }
   },

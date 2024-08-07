@@ -1,7 +1,7 @@
 <template>
   <main>
-    <SectionOne />
-    <About />
+    <SectionOne id="Home" />
+    <About id="About-me" />
   </main>
 </template>
 <script setup>
