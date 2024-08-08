@@ -38,7 +38,7 @@
         <div class="flex w-2/4 gap-8 items-center justify-around max-[890px]:w-full">
           <a class="hover:border-b-2" href="#Home">HOME</a>
           <a class="hover:border-b-2" href="#About-me">ABOUT</a>
-          <a class="hover:border-b-2" href="">CONTACT</a>
+          <a class="hover:border-b-2" href="#Skills">SKILLS</a>
         </div>
         <a class="ml-auto mr-5 my-auto max-[890px]:hidden z-30" href="">Contact Me</a>
       </nav>
@@ -82,7 +82,8 @@
         <button @click="mobileMenue = false" class="absolute top-5 right-1/2 text-xl">x</button>
         <a @click="mobileMenue = false" class="hover:border-b-2" href="#Home">HOME</a>
         <a @click="mobileMenue = false" class="hover:border-b-2" href="#About-me">ABOUT</a>
-        <a @click="mobileMenue = false" class="hover:border-b-2" href="#">CONTACT</a>
+        <a @click="mobileMenue = false" class="hover:border-b-2" href="#Skills">SKILLS</a>
+        <a @click="mobileMenue = false" class="hover:border-b-2" href="#">Contact</a>
         <div class="flex gap-16 items-center mt-10">
           <a target="_blank" href="https://www.instagram.com/mehd1.beigi">
             <img class="mx-auto" src="/images/Vector-1.png" alt="" />

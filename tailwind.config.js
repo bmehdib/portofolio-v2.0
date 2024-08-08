@@ -28,13 +28,23 @@ export default {
         disapear: {
           from: { transform: 'scale(1)' },
           to: { transform: 'scale(0)' }
+        },
+        expand: {
+          from: { transform: 'translateY(-500px)', opacity: '0' },
+          to: { transform: 'translateY(0)', opacity: '1' }
+        },
+        colorFlash: {
+          from: { transform: 'translateX(-500px)' },
+          to: { transform: 'translateX(500px)' }
         }
       },
       animation: {
         float: 'astro linear 3s infinite',
         planet: 'astro linear 5s infinite',
         apear: 'apear linear 0.5s both',
-        disapear: 'disapear lienar 0.5s both'
+        disapear: 'disapear lienar 0.5s',
+        expand: 'expand linear 1s',
+        colorFlash: 'colorFlash linear 0.5s'
       }
     }
   },
