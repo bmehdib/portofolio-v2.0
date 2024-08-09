@@ -10,3 +10,21 @@
 *::-webkit-scrollbar {
   width: 15px;
 }
+.contact-input {
+  background-color: rgba(231, 116, 197, 0.418);
+  padding: 0.8rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+}
+.circle {
+  width: 100%;
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.circle img {
+  min-width: 50rem;
+}

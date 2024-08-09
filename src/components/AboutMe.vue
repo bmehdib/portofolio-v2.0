@@ -1,7 +1,7 @@
 <template>
   <section
     :id="About - me"
-    class="bg-primaryColor400 text-white p-3 overflow-hidden relative z-10 pt-20 pb-20 min-h-screen"
+    class="bg-primaryColor400 text-white p-3 overflow-hidden relative z-10 pt-24 pb-20 min-h-screen"
   >
     <span
       class="absolute bg- bg-lightPurple w-2/5 h-2/3 aspect-square rounded-tl-full rounded-b right-0 bottom-0 blur-3xl opacity-10 -z-10"
@@ -13,7 +13,7 @@
       class="absolute bg-teal-300 w-2/5 h-2/3 aspect-square rounded-br-full rounded-b left-0 top-0 blur-3xl opacity-10 -z-10"
     ></span>
     <h1
-      class="text-9xl font-bold font-k2D absolute z-20 right-1/4 top-20 max-[800px]:text-5xl max-[800px]:right-1/2 max-[800px]:translate-x-1/2 max-[800px]:text-center max-[800px]:top-0"
+      class="text-9xl font-bold font-k2D absolute z-20 right-1/4 top-24 max-[800px]:text-5xl max-[800px]:right-1/2 max-[800px]:translate-x-1/2 max-[800px]:text-center max-[800px]:top-6"
     >
       About
       <br />
@@ -35,12 +35,14 @@
           >,<span class="text-green-400">VueJs</span>,
           <span class="text-purple-400">Tailwindcss</span>)
         </p>
-        <button
-          id="observe"
-          class="mt-10 bg-lightPurple text-lg font-k2D font-bold p-2 rounded-xl cursor-pointer z-50 scale-0"
-        >
-          Contact Me
-        </button>
+        <a href="#contact">
+          <button
+            id="observe"
+            class="mt-10 bg-lightPurple text-lg font-k2D font-bold p-2 rounded-xl cursor-pointer z-50 scale-0"
+          >
+            Contact Me
+          </button>
+        </a>
       </div>
     </div>
     <img class="absolute right-2 top-2/3 -z-10 w-96" src="/images/dot pattern.png" alt="" />

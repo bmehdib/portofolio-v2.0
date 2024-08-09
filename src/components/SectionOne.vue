@@ -40,7 +40,7 @@
           <a class="hover:border-b-2" href="#About-me">ABOUT</a>
           <a class="hover:border-b-2" href="#Skills">SKILLS</a>
         </div>
-        <a class="ml-auto mr-5 my-auto max-[890px]:hidden z-30" href="">Contact Me</a>
+        <a class="ml-auto mr-5 my-auto max-[890px]:hidden z-30" href="#contact">Contact Me</a>
       </nav>
       <button @click="mobileMenue = true" class="transition min-[539px]:hidden">|||</button>
     </header>

@@ -35,7 +35,15 @@ export default {
         },
         colorFlash: {
           from: { transform: 'translateX(-500px)' },
-          to: { transform: 'translateX(500px)' }
+          to: { transform: 'translateX(5000px)' }
+        },
+        popup: {
+          from: { transform: 'translateY(-1000px)', scale: '0' },
+          to: { transform: 'translateY(0px)', scale: '1' }
+        },
+        popdown: {
+          from: { transform: 'translateY(0)', scale: '1' },
+          to: { transform: 'translateY(-1000px)', scale: '0' }
         }
       },
       animation: {
@@ -44,7 +52,9 @@ export default {
         apear: 'apear linear 0.5s both',
         disapear: 'disapear lienar 0.5s',
         expand: 'expand linear 1s',
-        colorFlash: 'colorFlash linear 0.5s'
+        colorFlash: 'colorFlash linear 0.5s',
+        popup: 'popup linear 0.41s',
+        popdown: 'popdown linear 0.41s'
       }
     }
   },
