@@ -83,7 +83,7 @@
         <a @click="mobileMenue = false" class="hover:border-b-2" href="#Home">HOME</a>
         <a @click="mobileMenue = false" class="hover:border-b-2" href="#About-me">ABOUT</a>
         <a @click="mobileMenue = false" class="hover:border-b-2" href="#Skills">SKILLS</a>
-        <a @click="mobileMenue = false" class="hover:border-b-2" href="#">Contact</a>
+        <a @click="mobileMenue = false" class="hover:border-b-2" href="#contact">Contact</a>
         <div class="flex gap-16 items-center mt-10">
           <a target="_blank" href="https://www.instagram.com/mehd1.beigi">
             <img class="mx-auto" src="/images/Vector-1.png" alt="" />
