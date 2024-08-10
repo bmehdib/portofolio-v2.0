@@ -65,8 +65,8 @@ const name = ref(null)
 const email = ref(null)
 const meesage = ref(null)
 const pop = ref(false)
-const animation = ref()
-const popmessage = ref()
+const animation = ref('')
+const popmessage = ref('')
 
 function copy() {
   navigator.clipboard.writeText('mehdibigi1383@gmail.com')
@@ -89,19 +89,19 @@ function checkInputs() {
 function clicked() {
   if (checkInputs()) {
     popmessage.value = 'مرسی از همراهی شما'
-    this.animation = 'animate-popup'
+    this.animation.value = 'animate-popup'
     this.pop = true
     this.name = ''
     this.email = ''
     this.meesage = ''
   } else {
     popmessage.value = 'لطفا همه ی  اطلاعات را وارد کنید'
-    this.animation = 'animate-popup'
+    this.animation.value = 'animate-popup'
     this.pop = true
   }
 }
 function closePop() {
-  this.animation = 'animate-popdown'
+  this.animation.value = 'animate-popdown'
   setTimeout(() => {
     this.pop = false
   }, 400)
