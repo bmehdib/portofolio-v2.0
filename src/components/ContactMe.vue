@@ -89,19 +89,19 @@ function checkInputs() {
 function clicked() {
   if (checkInputs()) {
     popmessage.value = 'مرسی از همراهی شما'
-    this.animation.value = 'animate-popup'
+    this.animation = 'animate-popup'
     this.pop = true
     this.name = ''
     this.email = ''
     this.meesage = ''
   } else {
     popmessage.value = 'لطفا همه ی  اطلاعات را وارد کنید'
-    this.animation.value = 'animate-popup'
+    this.animation = 'animate-popup'
     this.pop = true
   }
 }
 function closePop() {
-  this.animation.value = 'animate-popdown'
+  this.animation = 'animate-popdown'
   setTimeout(() => {
     this.pop = false
   }, 400)
